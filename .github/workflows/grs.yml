@@ -1,4 +1,4 @@
-name: Update README cards
+name: Generate README Stats
 
 on:
   schedule:
@@ -15,18 +15,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats
-        uses: anuraghazra/github-readme-stats@master
+      - name: Generate Stats Card
+        uses: DenverCoder1/github-readme-stats@v1
         with:
-          username: ${{ github.repository_owner }}
-          show_icons: true
+          username: TharunG2006
           theme: tokyonight
-          layout: compact
+          show_icons: true
+          output: profile-stats.svg
 
-      - name: Commit files
+      - name: Generate Top Languages Card
+        uses: DenverCoder1/github-readme-stats@v1
+        with:
+          username: TharunG2006
+          layout: compact
+          theme: tokyonight
+          output: top-langs.svg
+
+      - name: Commit Files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
-          git commit -m "Update README cards" || exit 0
+          git add *.svg
+          git commit -m "Update README stats" || exit 0
           git push
