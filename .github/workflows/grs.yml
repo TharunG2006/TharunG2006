@@ -1,0 +1,32 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: ${{ github.repository_owner }}
+          show_icons: true
+          theme: tokyonight
+          layout: compact
+
+      - name: Commit files
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update README cards" || exit 0
+          git push
