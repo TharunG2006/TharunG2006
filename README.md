@@ -65,14 +65,15 @@
 </p>
 
 ---
+
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TharunG2006&show_icons=true&theme=default&cache_seconds=1800" />
+  <img src="profile-stats.svg" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TharunG2006&layout=compact&theme=default&cache_seconds=1800" />
+  <img src="top-langs.svg" />
 </p>
 ---
 
