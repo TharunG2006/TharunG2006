@@ -68,13 +68,9 @@
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TharunG2006&show_icons=true&theme=tokyonight" />
-</p>
+![Tharun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=TharunG2006&show_icons=true)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TharunG2006&layout=compact&theme=tokyonight" />
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TharunG2006&layout=compact)
 ---
 
 ## 🐍 Contribution Snake
