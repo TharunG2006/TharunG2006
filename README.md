@@ -69,11 +69,11 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="profile-stats.svg" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TharunG2006&show_icons=true&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="top-langs.svg" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TharunG2006&layout=compact&theme=tokyonight" />
 </p>
 ---
 
