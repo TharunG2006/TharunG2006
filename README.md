@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=#504A4B&center=true&vCenter=true&width=600&lines=Building+Scalable+Web+Applications;Creating+AI-Powered+Systems;Exploring+Cybersecurity;Always+Learning+%26+Improving" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=504A4B&center=true&vCenter=true&width=600&lines=Building+Scalable+Web+Applications;Creating+AI-Powered+Systems;Exploring+Cybersecurity;Always+Learning+%26+Improving" />
 </p>
 
 ---
